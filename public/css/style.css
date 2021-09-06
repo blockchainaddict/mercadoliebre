@@ -21,11 +21,13 @@ header{
 }
 
 h2{
-    font-size: 12px;
+    font-size: 1.2em;
+    margin: 10px 0;
 }
 
 h3{
     font-size: 24px;
+    margin: 30px 0 10px 0;
 }
 
 ul{
@@ -59,6 +61,11 @@ header h2{
     align-items: center;
 }
 
+.search input{
+    margin: 20px 0 0 0;
+    height: 2em;
+}
+
 nav{
     display: flex;
     flex-direction: column;
@@ -76,6 +83,10 @@ nav ul{
     padding: 3px 6px 3px 6px;
     border-radius: 3px;
     color: white;
+}
+
+.burger-menu i{
+    font-size: 1.4em;
 }
 
 main{
