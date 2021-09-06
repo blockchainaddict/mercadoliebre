@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="form_wrapper">
+        <form action="" method="POST">
+            <!-- <fieldset> -->
+                <label for="fullname">Nombre y apellido</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Nombre completo">
+
+                <label for="username">Nombre de usuario</label>
+                <input type="text" name="username" id="username" placeholder="Nombre de usuario">
+    
+                <label for="birthtdate">Fecha de nacimiento</label>
+                <input type="date" name="birthdate" id="birthtdate">
+    
+                <label for="address">Domicilio</label>
+                <input type="text" name="adress">
+
+            <!-- </fieldset> -->
+            
+    
+            <p>Perfil de comprador</p>
+
+            <section class="profile">
+                <label for="profile">Vendedor</label>
+                <input type="radio" name="profile" id="vendedor" value="vendedor">
+
+                <label for="profile">Comprador</label>
+                <input type="radio" name="profile" id="comprador" value="comprador">
+            </section>
+            
+            <section class="intereses">
+                <p>Categorias de interes</p>
+
+                <div class="checkbox_items">
+                    <label for="electro">Electro</label>
+                    <input type="checkbox" name="intereses" id="electro" value="electro">   
+                </div>
+                
+                <div class="checkbox_items">
+                    <label for="moda">Moda</label>
+                    <input type="checkbox" name="intereses" id="moda" value="moda">
+                </section>
+                
+
+                <div class="checkbox_items">
+                    <label for="moda">Hogar</label>
+                    <input type="checkbox" name="intereses" id="hogar" value="hogar">
+                </div>
+                
+
+                <div class="checkbox_items">
+                    <label for="moda">Jugueteria</label>
+                    <input type="checkbox" name="intereses" id="jugueteria" value="jugueteria">
+                </div>
+                
+
+                <div class="checkbox_items">
+                    <label for="moda">Vida sana</label>
+                    <input type="checkbox" name="intereses" id="vida_sana" value="vida_sana">
+                </div>
+                            </div>
+
+            <button></button>
+            <button></button>
+            
+        </form>
+
+    </div>   
+    
+
+</body>
+</html>
