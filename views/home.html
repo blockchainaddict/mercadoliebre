@@ -12,26 +12,30 @@
 <body>
 
     <header>
-        <img src="images/logo-mercado-liebre.svg" alt="logo">
+        <a class="home_link" href="/"><img src="images/logo-mercado-liebre.svg" alt="logo"></a> 
         <div class="search">
             <input id="input_box" type="text" placeholder="Buscar productos, marcas">
             <i style="margin-left: 3px;" class="fas fa-search"></i>
         </div>
-        <h2>Compra en cuotas y sin tarjeta de credito</h2>
-        <i class="fas fa-credit-card"></i>
 
-        <nav>
-            <ul>
+        <div class="under_search_bar">
+            <h2>Compra en cuotas y sin tarjeta de credito</h2>
+            <i class="fas fa-credit-card"></i>
+        </div>
+        
+
+        <nav >
+            <ul class="nav_menu_home1">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
 
-            <ul>
-                <li><a href="/register">Crea tu cuenta</a> </li>
-                <li><a href="/sign_in">Ingresa</a> </li>
-                <li><a href="#">Mis compras</a></li>
+            <ul class="nav_menu_home2">
+                <li><a href="/register">Crea tu cuenta</a> <i class="fas fa-user-circle"></i></i> </li>
+                <li><a href="/sign_in">Ingresa</a> <i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="#">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
             </ul>
         </nav>
         <div class="burger-menu">
@@ -152,7 +156,12 @@
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer_container">
+            <i class="far fa-credit-card"></i>
+            <p>Con MercadoLiebre cash puedes pagar en cuotas sin interés con tarjeta o en efectivo.</p>
+        </div>
+    </footer>
     
 </body>
 </html>
