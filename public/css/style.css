@@ -42,7 +42,7 @@ header{
 }
 
 header img{
-    width: 100%;
+    width: 40%;
 }
 
 #input_box{
@@ -234,14 +234,20 @@ article:hover .fas{
 /* R E G I S T E R */
 
 
+
 form{
-    background-color: rgb(244, 242, 242);
-    border-radius: 5px;
-    margin: 20px 20px;
+    background-color: rgb(225, 223, 223);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 40px 20px;
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items:center;
+}
+
+.login_form{
+    width: 30vw;
 }
 
 .profile{
@@ -249,6 +255,8 @@ form{
     flex-direction: row;
     margin: 10px 0;
     width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .intereses{
@@ -257,9 +265,9 @@ form{
 }
 
 input{
-    width: 140px;
+    height: 1.5em;
     margin: 8px 0;
-    border-radius: 4px;
+    padding: 0 3px;
 }
 
 .intereses p{
@@ -270,6 +278,30 @@ input{
 .checkbox_items{
     display: flex;
     justify-content: space-between;
+    width: 150px;
+}
+
+.checkbox_items label{
+    width: 80px;
+}
+
+.checkbox_items input{
+    width: 60px;
+}
+
+.register_button{
+    margin: 50px 0;
+    align-self: center;
+    background-color: #EAC926;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 18px;
+    font-size: 1.2em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.register_button:hover{
+    cursor: pointer;
 }
 
 /* FORM */
